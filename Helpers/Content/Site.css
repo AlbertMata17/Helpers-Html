@@ -1,0 +1,115 @@
+﻿body{
+    color:white;
+}
+
+.label{
+    
+   font-size:18px;
+  
+  margin-top:20px;
+   
+}
+
+.inp{
+    width:300px;
+   margin-top:9px;
+   margin-left:0px;
+    
+}
+
+.con {
+    width:700px;
+    height: 100%;
+    margin-left: 200px;
+    background: rgba(0,0,0,0.71);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+
+.m{
+    width:300px;
+    margin-left:3px;
+    text-align:center;
+    margin-top:10px;
+}
+.b{
+  margin-bottom:50px;
+}
+
+.mi{
+    
+    margin-top:30px;
+color:red
+
+}
+
+.txt{
+    font-size:40px;
+  margin-left:225px;
+  margin-bottom:25px;
+ 
+}
+
+.estado {
+    font-size:18px;
+    margin-left: 280px;
+    margin-top:5px; 
+    margin-bottom: 25px;
+}
+
+.hobbys{
+    margin-left:300px;
+    
+}
+
+.bt{
+    margin-left:300px;
+}
+
+.ho{
+    margin-left:320px;
+    font-size:18px;
+}
+
+.boton{
+    margin-top:10px;
+    font-size:20px;
+}
+
+.text{
+    font-weight:bold;   
+   
+}
+
+.t{
+    font-size: 18px;
+}
+.t tr {
+        height: 40px;
+    }
+.t th, .t td {
+        text-align: center;
+    }
+    .t th {
+        background-color: #32c0c0;
+        font-size: 20px;
+    }
+
+    .t tr {
+        background: rgba(0, 0, 0, 0.59);
+        font-size: 20px;
+    }
+
+    .lab{
+       font-size:40px;
+       margin-left:500px;
+       margin-top:40px;
+       margin-bottom:10px;
+    }
+
+.t tr:hover {
+    background: rgba(0, 0, 0, 0.8);
+}

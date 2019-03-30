@@ -1,0 +1,44 @@
+﻿@model Helpers.Models.Datos
+
+
+@{
+    ViewBag.Title = "Usuario";
+}
+
+
+
+<div class="container-fluid">
+    <div class="row">
+        @Html.Label("Usuario", new { @class = "lab" })
+        <table class="table table-striped t">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.apellido)</th>
+                <th>@Html.DisplayNameFor(model => model.telefono)</th>
+                <th>@Html.DisplayNameFor(model => model.correo)</th>
+                <th>@Html.DisplayNameFor(model => model.cedula)</th>
+                <th>@Html.DisplayNameFor(model => model.edad)</th>
+                <th>@Html.DisplayNameFor(model => model.Sexo)</th>
+                <th>@Html.DisplayNameFor(model => model.EstadoCivil)</th>
+                <th>@Html.DisplayNameFor(model => model.Hobbys)</th>
+
+            </tr>
+
+            <tr>
+                <td>@Html.DisplayFor(model => model.nombre)</td>
+                <td>@Html.DisplayFor(model => model.apellido)</td>
+                <td>@Html.DisplayFor(model => model.telefono)</td>
+                <td>@Html.DisplayFor(model => model.correo)</td>
+                <td>@Html.DisplayFor(model => model.cedula)</td>
+                <td>@Html.DisplayFor(model => model.edad)</td>
+                <td>@Html.DisplayFor(model => model.Sexo)</td>
+                <td>@Html.DisplayFor(model => model.EstadoCivil)</td>
+                <td>@ViewBag.mensaje</td>
+
+            </tr>
+
+        </table>
+    </div>
+</div>
+<a href="@Url.Action("Index","Home")" class="btn btn-primary">Volver al Inicio</a>
+     

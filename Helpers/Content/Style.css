@@ -1,0 +1,50 @@
+﻿body {
+    background-image: url("../Img/fondo.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.contenedor {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-top: 100px;
+    border-radius: 7px;
+}
+
+p {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+input[type=button] {
+    background-color: #7d206b30;
+    color: #fff;
+    width: 180px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+    input[type=button]:hover {
+        background-color: #ff24d585;
+        cursor:pointer;
+    }
+
+    .hr{
+        margin-top:350px;
+    }
+   

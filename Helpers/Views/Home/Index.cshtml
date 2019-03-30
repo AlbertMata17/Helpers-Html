@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/Style.css" rel="stylesheet" />
+
+   
+</head>
+<body>
+    <div>
+        <div class="contenedor">
+            <h1>Bienvenidos</h1>
+            <p>Bienvenido a aplicación con asp .net Helpers Html por Albert de Jesús Mata Hernández 2017-4531 presiona el boton para pasar al formulario</p>
+            <center><input type="button" value="Formulario" onclick="location.href='@Url.Action("Formulario", "Datos")'" class="btn btn-secondary btn-md" /></center>
+
+
+        </div>
+    </div>
+   
+</body>
+</html>
